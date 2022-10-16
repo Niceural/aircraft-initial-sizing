@@ -1,0 +1,33 @@
+{
+  "known weight": {
+    "payload": {
+      "weight": 0.0,
+      "safety factor": 0.3
+    },
+    "passenger": {
+      "number": 90.0,
+      "weight": 83.0,
+      "baggage weight": 13.0,
+      "safety factor": 0.3
+    },
+    "crew": {
+      "number": 5.0,
+      "weight": 83.0,
+      "safety factor": 0.3
+    }
+  },
+  "empty weight": {
+    "empty weight fraction - A": 0.97,
+    "empty weight fraction - C": -0.06,
+    "materials correction factor": 0.988,
+    "safety factor": 0.3
+  },
+  "cruise legs": [
+    {
+      "name": "Wellington - Christchurch",
+      "range": 360.0,
+      "altitude": 0.0,
+      "mach number": 0.69
+    }
+  ]
+}

@@ -22,12 +22,18 @@
     "materials correction factor": 0.988,
     "safety factor": 0.3
   },
+  "leg weight fraction": {
+    "take off": 0.97,
+    "climb": 0.985,
+    "landing": 0.995
+  },
   "cruise legs": [
     {
       "name": "Wellington - Christchurch",
       "range": 360.0,
       "altitude": 0.0,
-      "mach number": 0.69
+      "mach number": 0.69,
+      "safety factor": 0.3
     }
   ]
 }

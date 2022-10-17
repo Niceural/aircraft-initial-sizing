@@ -10,4 +10,6 @@ config = json.load(file)
 
 known_weight = KnowWeight(config)
 empty_weight = EmptyWeight(config)
-# fuel_weight = null
+
+W_0 = 33000.0
+W_0 = known_weight / (1.0 - fuel_weight.get_weight_fraction(W_0) - empty_weight.get_weight_fraction(W_0))

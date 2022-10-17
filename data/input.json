@@ -22,6 +22,18 @@
     "materials correction factor": 0.988,
     "safety factor": 0.3
   },
+    "engine": {
+        "number of engines": 2.0,
+        "tsfc cruise": 14.1,
+        "tsfc loiter": 11.3
+    },
+    "wing": {
+        "number of wings": 2.0,
+        "L/D max": 12,
+        "L/D cruise factor": 0.866,
+        "L/D loiter factor": 1.0,
+        "AR": 19
+    },
   "leg weight fraction": {
     "take off": 0.97,
     "climb": 0.985,

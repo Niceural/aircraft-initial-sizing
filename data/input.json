@@ -1,7 +1,7 @@
 {
   "known weight": {
     "payload": {
-      "weight": 0.0,
+      "unfactored weight": 0.0,
       "safety factor": 0.3
     },
     "passenger": {
@@ -22,19 +22,19 @@
     "materials correction factor": 0.988,
     "safety factor": 0.3
   },
-    "engine": {
-        "number of engines": 2.0,
-        "tsfc cruise": 14.1,
-        "tsfc loiter": 11.3
-    },
-    "wing": {
-        "number of wings": 2.0,
-        "L/D max": 12,
-        "L/D cruise factor": 0.866,
-        "L/D loiter factor": 1.0,
-        "AR": 19
-    },
-  "leg weight fraction": {
+  "engine": {
+    "number of engines": 2.0,
+    "tsfc cruise": 14.1,
+    "tsfc loiter": 11.3
+  },
+  "wing": {
+    "number of wings": 2.0,
+    "L/D max": 12,
+    "L/D cruise factor": 0.866,
+    "L/D loiter factor": 1.0,
+    "AR": 19
+  },
+  "mission segment weight fraction": {
     "take off": 0.97,
     "climb": 0.985,
     "landing": 0.995
@@ -42,9 +42,23 @@
   "cruise legs": [
     {
       "name": "Wellington - Christchurch",
-      "range": 360.0,
-      "altitude": 0.0,
-      "mach number": 0.69,
+      "range (km)": 360.0,
+      "altitude (ft)": 25000.0,
+      "velocity (mach)": 0.69,
+      "safety factor": 0.3
+    },
+    {
+      "name": "Christchurch - Hamilton",
+      "range (km)": 710.0,
+      "altitude (ft)": 25000.0,
+      "velocity (mach)": 0.69,
+      "safety factor": 0.3
+    },
+    {
+      "name": "Hamilton - Wellington",
+      "range (km)": 420.0,
+      "altitude (ft)": 25000.0,
+      "velocity (mach)": 0.69,
       "safety factor": 0.3
     }
   ]
